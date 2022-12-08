@@ -12,7 +12,7 @@ namespace Shopping.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    
     public class OrderController : ControllerBase
     {
         onlineshoppingContext db = new onlineshoppingContext();
@@ -25,8 +25,6 @@ namespace Shopping.Controllers
             Random random = new Random();
             int uid = random.Next(10000,99999);
             String orderid = "OD"+uid;
-
-
             Orderstbl orderstbl = new Orderstbl();
             orderstbl.Productid = orderPlaced.Productid;
             orderstbl.Customerid = orderPlaced.Customerid;

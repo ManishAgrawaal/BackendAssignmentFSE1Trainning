@@ -39,21 +39,22 @@ namespace Shopping.Controllers
             {
                 return Ok("Warning ! Email Id Already Exists.");
             }
-            else { 
-
-            if(userstbl.Password==userstbl.Cpassword)
-            {
-
-                db.Userstbls.Add(userstbl);
-                db.SaveChanges();
-                return Ok("New Record Registered successfully.");
-            }
             else
             {
 
-                return Ok("Error ! Password and Confirm Password must be same.");
+                if (userstbl.Password == userstbl.Cpassword)
+                {
 
-            }
+                    db.Userstbls.Add(userstbl);
+                    db.SaveChanges();
+                    return Ok("New Record Registered successfully.");
+                }
+                else
+                {
+
+                    return Ok("Error ! Password and Confirm Password must be same.");
+
+                }
             }
         }
     }

@@ -8,7 +8,6 @@
 	  <PackageReference Include="MassTransit" Version="7.0.3" />
 	  <PackageReference Include="MassTransit.AspNetCore" Version="7.0.3" />
 	  <PackageReference Include="MassTransit.RabbitMQ" Version="7.0.3" />
-	  <ProjectReference Include="..\Shared.Model\Shared.Model.csproj" />
   </ItemGroup>
 
   <ItemGroup>

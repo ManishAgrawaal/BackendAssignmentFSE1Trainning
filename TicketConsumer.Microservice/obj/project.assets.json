@@ -1482,16 +1482,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
-      },
-      "Shared.Model/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/Shared.Model.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Shared.Model.dll": {}
-        }
       }
     }
   },
@@ -5309,19 +5299,13 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
-    },
-    "Shared.Model/1.0.0": {
-      "type": "project",
-      "path": "../Shared.Model/Shared.Model.csproj",
-      "msbuildProject": "../Shared.Model/Shared.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "MassTransit >= 7.0.3",
       "MassTransit.AspNetCore >= 7.0.3",
-      "MassTransit.RabbitMQ >= 7.0.3",
-      "Shared.Model >= 1.0.0"
+      "MassTransit.RabbitMQ >= 7.0.3"
     ]
   },
   "packageFolders": {
@@ -5358,11 +5342,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "D:\\ShoppingProject\\Shared.Model\\Shared.Model.csproj": {
-              "projectPath": "D:\\ShoppingProject\\Shared.Model\\Shared.Model.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

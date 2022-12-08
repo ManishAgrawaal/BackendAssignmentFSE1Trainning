@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
+using System;
 using Microsoft.AspNetCore.Mvc;
 using Shopping.Models;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -11,15 +11,15 @@ namespace Shopping.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
-  
+    
+ 
     public class OrderHistoryController : ControllerBase
     {
         onlineshoppingContext db = new onlineshoppingContext();
         [HttpGet]
         [Route("ViewDetails")]
 
-
+        
         public IActionResult getData()
         {
             var query = (from o in db.Orderstbls

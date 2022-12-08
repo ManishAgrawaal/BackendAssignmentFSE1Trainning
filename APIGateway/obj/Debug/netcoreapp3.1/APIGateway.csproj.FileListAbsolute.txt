@@ -360,3 +360,4 @@ D:\ShoppingProject\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.csproj.CopyComp
 D:\ShoppingProject\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.dll
 D:\ShoppingProject\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.pdb
 D:\ShoppingProject\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.genruntimeconfig.cache
+D:\ShoppingProject\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.csproj.AssemblyReference.cache

@@ -68,7 +68,6 @@ D:\ShoppingProject\Shopping\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Micr
 D:\ShoppingProject\Shopping\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 D:\ShoppingProject\Shopping\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\ShoppingProject\Shopping\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\ShoppingProject\Shopping\obj\Debug\netcoreapp3.1\Shopping.csproj.AssemblyReference.cache
 D:\ShoppingProject\Shopping\obj\Debug\netcoreapp3.1\Shopping.GeneratedMSBuildEditorConfig.editorconfig
 D:\ShoppingProject\Shopping\obj\Debug\netcoreapp3.1\Shopping.AssemblyInfoInputs.cache
 D:\ShoppingProject\Shopping\obj\Debug\netcoreapp3.1\Shopping.AssemblyInfo.cs
@@ -79,7 +78,8 @@ D:\ShoppingProject\Shopping\obj\Debug\netcoreapp3.1\staticwebassets\Shopping.Sta
 D:\ShoppingProject\Shopping\obj\Debug\netcoreapp3.1\staticwebassets\Shopping.StaticWebAssets.xml
 D:\ShoppingProject\Shopping\obj\Debug\netcoreapp3.1\scopedcss\bundle\Shopping.styles.css
 D:\ShoppingProject\Shopping\obj\Debug\netcoreapp3.1\Shopping.RazorTargetAssemblyInfo.cache
-D:\ShoppingProject\Shopping\obj\Debug\netcoreapp3.1\Shopping.csproj.CopyComplete
 D:\ShoppingProject\Shopping\obj\Debug\netcoreapp3.1\Shopping.dll
 D:\ShoppingProject\Shopping\obj\Debug\netcoreapp3.1\Shopping.pdb
 D:\ShoppingProject\Shopping\obj\Debug\netcoreapp3.1\Shopping.genruntimeconfig.cache
+D:\ShoppingProject\Shopping\obj\Debug\netcoreapp3.1\Shopping.csproj.AssemblyReference.cache
+D:\ShoppingProject\Shopping\obj\Debug\netcoreapp3.1\Shopping.csproj.CopyComplete
